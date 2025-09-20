@@ -62,17 +62,6 @@ This system runs entirely within the AWS Free Tier for small workloads:
 | EventBridge  | 100K events                |
 | CloudWatch   | 10 metrics + 10 alarms     |
 
-### Paid Tier Example (2M alerts/month)
-
-| Service      | Usage                     | Estimated Cost |
-|--------------|---------------------------|----------------|
-| Lambda       | 2M requests, 128MB, 1s     | ~$2.50         |
-| SQS          | 2M messages                | ~$0.80         |
-| SNS          | 2M publishes               | ~$0.50         |
-| EventBridge  | 2M events                  | ~$4.00         |
-| CloudWatch   | 30 metrics + 30 alarms     | ~$9.00         |
-
-**Total Estimated Monthly Cost: ~$16.80 USD**
 
 ---
 
