@@ -1,0 +1,5 @@
+aws cloudwatch put-metric-data \
+  --namespace "Custom/AlertSystem" \
+  --metric-name "CustomAlertMetric" \
+  --value 2 \
+  --dimensions Environment=Test
